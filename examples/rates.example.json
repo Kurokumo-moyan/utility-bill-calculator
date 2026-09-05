@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "currency": "AUD",
+  "categories": {
+    "electricity": {
+      "usage_rate": "0.30",
+      "daily_rate": "1.00",
+      "data_unit": "kWh",
+      "rate_unit": "kWh",
+      "interval_minutes": 5
+    },
+    "water": {
+      "usage_rate": "0.02",
+      "daily_rate": "0.50",
+      "data_unit": "L",
+      "rate_unit": "L",
+      "interval_minutes": 0
+    },
+    "gas": {
+      "usage_rate": "0.04",
+      "daily_rate": "0.60",
+      "data_unit": "MJ",
+      "rate_unit": "MJ",
+      "interval_minutes": 0
+    }
+  }
+}
