@@ -195,12 +195,6 @@ settings.local.json          运行后保存的本地设置（不纳入版本控
 
 测试使用虚构数据，覆盖 CSV、XLSX、XLSM、XLS、列名映射、日期筛选、单位换算、去重、冲突、费率校验和窗口交互。GUI 测试需要桌面显示环境。XLSB 使用相同 Calamine 读取后端支持，尚未添加端到端 XLSB 测试样本。
 
-## 发布到 GitHub
-
-仅将**本项目文件夹**作为仓库根目录上传。`.gitignore` 已忽略虚拟环境、本地设置、`data/` 中的账单和 `exports/` 中的结果。公开示例均为虚构数据；把真实文件放到其他未忽略的位置会被 Git 纳入候选文件。
-
-项目仓库：[Kurokumo-moyan/utility-bill-calculator](https://github.com/Kurokumo-moyan/utility-bill-calculator)。如果发布自己的副本，可在 GitHub Desktop 中将本文件夹创建为新仓库，也可在此文件夹内用 Git 初始化后连接自己的 GitHub 仓库。请勿将父目录作为这个项目上传。
-
 ## 许可证
 
 [MIT](LICENSE)。
